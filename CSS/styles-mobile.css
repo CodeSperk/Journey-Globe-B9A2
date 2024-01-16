@@ -1,0 +1,82 @@
+
+@media only screen and (max-width:600px){
+  
+  body{
+    max-width: 600px;
+    padding: 1.25rem;
+  }
+  .sec-title{
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  }
+  .description{
+    font-size: 14px;
+  }
+  
+  /* Navbar Section */
+  .nav-container{
+    padding: 1.125rem 0;
+  }
+  .logo>img{
+    width:28px;
+    margin-right: 10px;
+  }
+  .logo>h2{
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+  
+  
+  /* Banner Section */
+  .banner-content{
+    padding: 24px;
+  }
+  .banner-content h1{
+  font-size: 1.5rem;
+  }
+  .banner-content>p{
+    margin-bottom: 24px;
+  }
+  .find{
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  /* newsletter section */
+  
+  .newsletter-content{
+    padding: 1.5rem;
+  }
+  
+  
+  
+  
+  
+  .newsletter-img{
+    position: relative;
+    min-height: 420px;
+  }
+  
+  
+  .newsletter-tag{
+    padding:1rem 1.5rem;
+    font-size: 1rem;
+    bottom: 3.5rem;
+
+  }
+  .newsletter-tag>h3{
+    font-size: 1.25rem;
+  }
+  
+  
+  /* footer */
+  .footer-contents{
+    padding: 2.5rem;
+  }
+  
+  .footer-contents h2{
+    font-size: 1.5rem;
+  }
+  
+  }

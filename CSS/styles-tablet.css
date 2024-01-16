@@ -1,0 +1,61 @@
+@media only screen and (max-width:991.9px) {
+  body{
+    padding: 2rem;
+  }
+  .header, .main, .footer-contents{
+    padding:0;
+  }
+  /* Header */
+  .nav-container{
+    padding: 1.5rem 0;
+  }
+  .menus>li{
+    display: none;
+  }
+  .menus>i{
+    display: flex;
+  }
+  .banner-content p{
+    max-width: 540px;
+  }
+  .find{
+    grid-template-columns: 1fr 1fr;
+  }  
+
+  /* Popular Tour Section */
+  .popular-tours{
+    flex-direction: column;
+   }
+   
+   .popular-texts>ul{
+     padding-right: 2rem;
+   }   
+   .popular-texts, .popular-img{
+     width: 100%;
+   }
+  
+  
+  /* Why Choose us section */
+  .feature-text{
+    padding: 0 1rem;
+  }
+  .feature-cards{
+    margin-top: 1.5rem;
+  }
+  .feature-card{
+    width: 100%;
+  }
+  /* newsletter section */
+  .newsletter{
+    flex-direction: column;
+  }
+  .newsletter-content, .newsletter-img{
+    width:100%;
+  }
+
+  /* footer */
+  .footer-contents{
+    padding:6rem 4rem;
+  }
+
+}
