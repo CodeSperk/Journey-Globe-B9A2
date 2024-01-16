@@ -67,6 +67,28 @@
   grid-column: 1/span 1;
 }
 
+/* Deals & Discount Section
+------------------------------- */
+.discounts{
+  margin-top:1.5rem;
+}
+
+.discount-content{
+  padding: 1rem;
+  width: 92%;
+  right: 1rem;
+  top:auto;
+  left: 1rem;
+  bottom: 1rem;
+}
+.discount-content h3{
+  margin-top: 1rem;
+}
+.discount-content button{
+  font-size:1rem;
+}
+
+
 /* Testimonial Section
 ------------------------ */
 .card-container{

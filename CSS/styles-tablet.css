@@ -49,6 +49,23 @@
   .feature-card{
     width: 100%;
   }
+
+  /* Perfect Place Section */
+  .perfect-place{
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+  video{
+    width: 100%;
+  }
+.video-container{
+  position: relative;
+  min-height:220px ;
+}
+
+
+ 
+
   /* newsletter section */
   .newsletter{
     flex-direction: column;
