@@ -6,7 +6,6 @@
 body{
   color: #131318;
   max-width: 1440px;
-  padding: 4rem;
   margin: 0 auto;
   font-family: 'Mulish', sans-serif;
 }
@@ -49,6 +48,13 @@ body{
 }
 
 
+
+.header, .main, .footer-contents{
+  max-width:1170px;
+  margin: 0 auto;
+  padding:0 2rem;
+}
+
 /* Header Section
 ===================== */
 
@@ -63,6 +69,7 @@ body{
 .logo{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .logo>img{
   width: 3rem;
@@ -97,10 +104,7 @@ body{
 
 /* Banner Part 
 ---------------*/
-.header{
-  max-width:1170px;
-  margin: 0 auto;
-}
+
 .banner {
   position: relative;
   min-height:540px;
@@ -165,10 +169,7 @@ select{
 
 /* Main
 =============== */
-.main{
-  max-width:1170px;
-  margin: 0 auto;
-}
+
 .main>section, footer{
   margin-top: 100px;
 }
@@ -205,6 +206,34 @@ margin: 2rem 0 1rem;
 }
 
 
+/* Footer
+============ */
+.footer{
+  background-color: rgba(19, 19, 24, 0.05);
+}
+.footer-contents{
+  padding: 110px;
+  text-align: center;
+}
+.footer-contents img{
+  width: 2.5rem;
+}
+.footer-contents h2{
+  font-size: 2rem;
+}
+.social-icons{
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.social-icons a{
+  color: #131318;
+}
+.social-icons i{
+  font-size: 28px;
+}
+
 
 
 
@@ -215,6 +244,9 @@ margin: 2rem 0 1rem;
 @media only screen and (max-width:991.9px) {
   body{
     padding: 2rem;
+  }
+  .header, .main, .footer-contents{
+    padding:0;
   }
   /* Header */
   .nav-container{
@@ -242,6 +274,11 @@ margin: 2rem 0 1rem;
   }
   .feature-card{
     width: 100%;
+  }
+
+  /* footer */
+  .footer-contents{
+    padding:6rem 4rem;
   }
 
 }
@@ -292,6 +329,15 @@ font-size: 1.5rem;
   width: 100%;
   grid-template-columns: 1fr;
   gap: 1rem;
+}
+
+/* footer */
+.footer-contents{
+  padding: 2.5rem;
+}
+
+.footer-contents h2{
+  font-size: 1.5rem;
 }
 
 }
