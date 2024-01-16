@@ -67,6 +67,18 @@
   grid-column: 1/span 1;
 }
 
+/* Testimonial Section
+------------------------ */
+.card-container{
+  margin-top: 1.5rem;
+  flex-direction: column;
+}
+.client-card{
+  width: 100%;
+}
+.testimonial>button{
+  font-size: 1rem;
+}
 
 
   
