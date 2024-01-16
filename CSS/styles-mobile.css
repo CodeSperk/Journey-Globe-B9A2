@@ -42,28 +42,46 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+
+  /* Main
+  -------------- */
+  .main>section, footer{
+    margin-top: 3.2rem;
+  }
+
+  /* Destination Section
+------------------------- */
+.destination-places{
+  margin-top: 1rem;
+  grid-template-columns: 1fr;
+}
+
+
+
+.maldiv{
+  background: url("../resources/maldiv.png");
+  grid-column: 1/span 6;
+}
+.destination-places>div{
+  height: 180px;
+  grid-column: 1/span 1;
+}
+
+
+
   
   /* newsletter section */
-  
   .newsletter-content{
     padding: 1.5rem;
   }
-  
-  
-  
-  
-  
   .newsletter-img{
     position: relative;
     min-height: 420px;
   }
-  
-  
   .newsletter-tag{
     padding:1rem 1.5rem;
     font-size: 1rem;
     bottom: 3.5rem;
-
   }
   .newsletter-tag>h3{
     font-size: 1.25rem;

@@ -34,7 +34,11 @@
      width: 100%;
    }
   
-  
+   /* destination section */
+   .destination-place{
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
   /* Why Choose us section */
   .feature-text{
     padding: 0 1rem;
